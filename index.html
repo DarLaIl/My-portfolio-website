@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Веб-разработчик Дарья</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <nav class="header__menu menu">
+                <a href="" class="menu__link"><img src="https://cdn.glitch.global/b796fac7-8be1-47ea-bf80-36d588d7054b/33.png?v=1706743454402" alt="Домой" width="50px"></a>
+                <a href="" class="menu__link">Обо мне</a>
+                <a href="" class="menu__link">Мои сертификаты</a>
+                <a href="" class="menu__link">Работы</a>
+                <a href="" class="menu__link">Контакты</a>
+            </nav>
+        </header>
+        <main class="page">
+            <div class="page__wrapper">
+                <div class="page__screen screen">
+                    <canvas id="c"></canvas>
+                    <div class="screen__content screen__content_FirstSlide">
+                        <div class="screen__text_FirstSlide">
+                            <h1 class="glow screen__title_FirstSlide">Привет, меня зовут Дарья!</h1>
+                            <h3 class="parallaxEl">Я front‑end разработчик.</h3>
+                            <div class="typedText">
+                                <p class="parallaxEl typedTextStart" > Веб-разработка - это <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+                            </div>
+                        </div>
+                        <div class="avatar">
+                            <img class="avatarPic" src="https://cdn.glitch.global/b796fac7-8be1-47ea-bf80-36d588d7054b/MyAvatar.png?v=1706743457192" alt="MyAvatar" width="100%" height="100%">
+                        </div>
+                    </div>
+                </div>
+                <div class="page__screen screen">
+                    <div class="screen__content screen__content_SecondSlide">
+                        <h2 class="glow screen__title_SecondSlide">Обо мне</h2>
+                        <div class="screen__text_SecondSlide">
+                            <p class="parallaxEl">Создаю простые в использовании и современные веб-сайты, с адаптацией под мобильные устройства, пишу чистый и аккуратный код. Я ориентирована на результат, прорабатываю все до мелочей, получаю большое удовольствие от хорошо выполненного задания. Стремительно развиваюсь в данном направлении.</p>
+                            <img class="screen__text_SecondSlide_img" src="https://cdn.glitch.global/b796fac7-8be1-47ea-bf80-36d588d7054b/glowD.png?v=1706743456081" alt="glowD" width="200px">
+                        </div>
+                        <div class="screen__body parallaxEl" >
+                            <div class="wrap">
+                                <div class="items-wrap">
+                                  <div class="items marquee">
+                                    <div class="item"><i class="fa-brands fa-html5" style="color: #ff088b;"></i>
+                              </div>
+                                    <div class="item"><i class="fa-brands fa-css3-alt" style="color: #ff088b;"></i>
+                              </div>
+                                    <div class="item"><i class="fa-brands fa-square-js" style="color: #ff088b;"></i>
+                              </div>
+                                    
+                                    <div class="item"><i class="fa-brands fa-codepen" style="color: #ff088b;"></i>
+                              </div>
+                                    <div class="item"><i class="fa-brands fa-figma" style="color: #ff088b;"></i>
+                              </div>
+                                    <div class="item"><i class="fa-brands fa-wordpress" style="color: #ff088b;"></i>
+                              </div>
+                                    <div class="item"><i class="fa-brands fa-bootstrap" style="color: #ff088b;"></i>
+                              </div>
+                                    <div class="item"><i class="fa-solid fa-code" style="color: #ff088b;"></i>
+                              </div>
+                                  </div>
+                                  <div aria-hidden="true" class="items marquee">
+                                    <div class="item"><i class="fa-brands fa-html5" style="color: #ff088b;"></i>
+                              </div>
+                                    <div class="item"><i class="fa-brands fa-css3-alt" style="color: #ff088b;"></i>
+                              </div>
+                                    <div class="item"><i class="fa-brands fa-square-js" style="color: #ff088b;"></i>
+                              </div>
+                                    
+                                    <div class="item"><i class="fa-brands fa-codepen" style="color: #ff088b;"></i>
+                              </div>
+                                    <div class="item"><i class="fa-brands fa-figma" style="color: #ff088b;"></i>
+                              </div>
+                                    <div class="item"><i class="fa-brands fa-wordpress" style="color: #ff088b;"></i>
+                              </div>
+                                    <div class="item"><i class="fa-brands fa-bootstrap" style="color: #ff088b;"></i>
+                              </div>
+                                    <div class="item"><i class="fa-solid fa-code" style="color: #ff088b;"></i>
+                              </div>
+                                  </div>
+                                </div>
+                                <div class="items-wrap">
+                                  <div class="items marquee reverse">
+                                    <div class="item_reverse">DOM</div>
+                                    <div class="item_reverse">AJAX</div>
+                                    <div class="item_reverse">JSON</div>
+                                    <div class="item_reverse">Flex</div>
+                                    <div class="item_reverse">Grid</div>
+                                    <div class="item_reverse">Keyframes</div>
+                                  </div>
+                                  <div aria-hidden="true" class="items marquee reverse">
+                                    <div class="item_reverse">DOM</div>
+                                    <div class="item_reverse">AJAX</div>
+                                    <div class="item_reverse">JSON</div>
+                                    <div class="item_reverse">Flex</div>
+                                    <div class="item_reverse">Grid</div>
+                                    <div class="item_reverse">Keyframes</div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="page__screen screen">
+                    <div class="screen__content screen__content_ThirdSlide">
+                        <h2 class="glow screen__title_ThirdSlide" >Мои сертификаты</h2>
+                    
+                        <div class="screen__body_ThirdSlide parallaxEl">
+                            <div class="card">
+                                <div class="card__content">
+                                    <div class="card__gloss"></div>
+                                    <img class="card__image" src="https://cdn.glitch.global/b796fac7-8be1-47ea-bf80-36d588d7054b/HTML-CSS%20ru.png?v=1706743456605" alt="diploma"/>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card__content">
+                                    <div class="card__gloss"></div>
+                                    <img class="card__image" src="https://cdn.glitch.global/b796fac7-8be1-47ea-bf80-36d588d7054b/Bootstrap%20ru.jpg?v=1706743455200" alt="diploma"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="page__screen screen">
+                    <div class="screen__content screen__content_FourthSlide">
+                        <h2 class="glow screen__title_FourthSlide">Мои работы</h2>
+                    
+                        <div class="screen__body_FourthSlide parallaxEl">
+                            <div class="swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="https://cdn.glitch.global/b796fac7-8be1-47ea-bf80-36d588d7054b/mock1.png?v=1706743587874" alt="mock" />
+                                        <div class="content">
+                                            <div class="title">
+                                                <h2>
+                                                <span class="white-point"></span> Лендинг: Сайт адвокатов Specter Law
+                                                <span class="white-point"></span>
+                                                </h2>
+                                                <h3>HTML/CSS/JS</h3>
+                                            </div>
+                                            <a href="https://html-proj-2-darla.glitch.me" target="_blank"><button class="work_link">Сайт проекта</button></a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="https://cdn.glitch.global/b796fac7-8be1-47ea-bf80-36d588d7054b/mock2.png?v=1706743588390" alt="mock" />
+                                        <div class="content">
+                                            <div class="title">
+                                                <h2>
+                                                <span class="white-point"></span> Лендинг: Сайт города Ванкувер
+                                                <span class="white-point"></span>
+                                                </h2>
+                                                <h3>HTML/CSS/JS</h3>
+                                            </div>
+                                            <a href="https://html-proj-4-darla.glitch.me" target="_blank"><button class="work_link">Сайт проекта</button></a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="https://cdn.glitch.global/b796fac7-8be1-47ea-bf80-36d588d7054b/mock3.png?v=1706743588985" alt="mock" />
+                                        <div class="content">
+                                            <div class="title">
+                                                <h2>
+                                                <span class="white-point"></span> Лендинг: Сайт фитнес клуба 
+                                                <span class="white-point"></span>
+                                                </h2>
+                                                <h3>HTML/CSS/Bootstrap</h3>
+                                            </div>
+                                            <a href="https://bootstrap-project-1-darla.glitch.me" target="_blank"><button class="work_link">Сайт проекта</button></a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="https://cdn.glitch.global/b796fac7-8be1-47ea-bf80-36d588d7054b/mock4.png?v=1706743589525" alt="mock" />
+                                        <div class="content">
+                                            <div class="title">
+                                                <h2>
+                                                <span class="white-point"></span> Лендинг: Сайт фотографа 
+                                                <span class="white-point"></span>
+                                                </h2>
+                                                <h3>HTML/CSS/Bootstrap</h3>
+                                            </div>
+                                            <a href="https://bootstrap-project-2-darla.glitch.me" target="_blank"><button class="work_link">Сайт проекта</button></a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="https://cdn.glitch.global/b796fac7-8be1-47ea-bf80-36d588d7054b/mock5.png?v=1706743590159" alt="mock" />
+                                        <div class="content">
+                                            <div class="title">
+                                                <h2>
+                                                <span class="white-point"></span> Лендинг: Сайт магазина Lumos
+                                                <span class="white-point"></span>
+                                                </h2>
+                                                <h3>HTML/CSS/JS/Bootstrap</h3>
+                                            </div>
+                                            <a href="https://bootstrap-proj3-lumos-darla.glitch.me" target="_blank"><button class="work_link">Сайт проекта</button></a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="https://cdn.glitch.global/b796fac7-8be1-47ea-bf80-36d588d7054b/mock6.png?v=1706743590735" alt="mock" />
+                                        <div class="content">
+                                            <div class="title">
+                                                <h2>
+                                                <span class="white-point"></span> Лендинг: Сайт пекарни Персик
+                                                <span class="white-point"></span>
+                                                </h2>
+                                                <h3>HTML/CSS/JS/GSAP</h3>
+                                            </div>
+                                            <a href="https://html-proj-3-darla.glitch.me" target="_blank"><button class="work_link">Сайт проекта</button></a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="https://cdn.glitch.global/b796fac7-8be1-47ea-bf80-36d588d7054b/mock7.png?v=1706743591255" alt="mock" />
+                                        <div class="content">
+                                            <div class="title">
+                                                <h2>
+                                                <span class="white-point"></span> Сайт о любимых фильмах 
+                                                <span class="white-point"></span>
+                                                </h2>
+                                                <h3>HTML/CSS/JS/GSAP</h3>
+                                            </div>
+                                            <a href="https://html-proj-1-darla.glitch.me" target="_blank"><button class="work_link">Сайт проекта</button></a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="https://cdn.glitch.global/b796fac7-8be1-47ea-bf80-36d588d7054b/mock8.png?v=1706743591775" alt="mock" />
+                                        <div class="content">
+                                            <div class="title">
+                                                <h2>
+                                                <span class="white-point"></span> Приложение: таймер Огурчик
+                                                <span class="white-point"></span>
+                                                </h2>
+                                                <h3>HTML/CSS/JS</h3>
+                                            </div>
+                                            <a href="https://module11-cucumber-ver2-app-darla.glitch.me" target="_blank"><button class="work_link">Сайт проекта</button></a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="https://cdn.glitch.global/b796fac7-8be1-47ea-bf80-36d588d7054b/mock9.png?v=1706743592332" alt="mock" />
+                                        <div class="content">
+                                            <div class="title">
+                                                <h2>
+                                                <span class="white-point"></span> Приложение: Шар предсказаний
+                                                <span class="white-point"></span>
+                                                </h2>
+                                                <h3>HTML/CSS/JS</h3>
+                                            </div>
+                                            <a href="https://module9-js-darla-5th-app.glitch.me" target="_blank"><button class="work_link">Сайт проекта</button></a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="https://cdn.glitch.global/b796fac7-8be1-47ea-bf80-36d588d7054b/mock10.png?v=1706743592889" alt="mock" />
+                                        <div class="content">
+                                            <div class="title">
+                                                <h2>
+                                                <span class="white-point"></span> Приложение: Игра с компьютером
+                                                <span class="white-point"></span>
+                                                </h2>
+                                                <h3>HTML/CSS/JS</h3>
+                                            </div>
+                                            <a href="https://js-module-7-1st-app-darla.glitch.me" target="_blank"><button class="work_link">Сайт проекта</button></a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="https://cdn.glitch.global/b796fac7-8be1-47ea-bf80-36d588d7054b/mock11.png?v=1706743582718" alt="mock" />
+                                        <div class="content">
+                                            <div class="title">
+                                                <h2>
+                                                <span class="white-point"></span> Приложение: Печенье с предсказанием
+                                                <span class="white-point"></span>
+                                                </h2>
+                                                <h3>HTML/CSS/JS/GSAP</h3>
+                                            </div>
+                                            <a href="https://module9-js-darla-4th-app.glitch.me" target="_blank"><button class="work_link">Сайт проекта</button></a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="https://cdn.glitch.global/b796fac7-8be1-47ea-bf80-36d588d7054b/mock12.png?v=1706743583401" alt="mock" />
+                                        <div class="content">
+                                            <div class="title">
+                                                <h2>
+                                                <span class="white-point"></span> Приложение: Калькулятор ипотеки
+                                                <span class="white-point"></span>
+                                                </h2>
+                                                <h3>HTML/CSS/JS/GSAP</h3>
+                                            </div>
+                                            <a href="https://js-module8-2nd-app-darla.glitch.me" target="_blank"><button class="work_link">Сайт проекта</button></a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="https://cdn.glitch.global/b796fac7-8be1-47ea-bf80-36d588d7054b/mock13.png?v=1706743584008" alt="mock" />
+                                        <div class="content">
+                                            <div class="title">
+                                                <h2>
+                                                <span class="white-point"></span> Приложение: Интервальный таймер для фитнеса
+                                                <span class="white-point"></span>
+                                                </h2>
+                                                <h3>HTML/CSS/JS</h3>
+                                            </div>
+                                            <a href="https://js-module11-2nd-app-darla.glitch.me" target="_blank"><button class="work_link">Сайт проекта</button></a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="https://cdn.glitch.global/b796fac7-8be1-47ea-bf80-36d588d7054b/mock14.png?v=1706743584557" alt="mock" />
+                                        <div class="content">
+                                            <div class="title">
+                                                <h2>
+                                                <span class="white-point"></span> Приложение: Медитации
+                                                <span class="white-point"></span>
+                                                </h2>
+                                                <h3>HTML/CSS/JS</h3>
+                                            </div>
+                                            <a href="https://js-module11-1st-app-darla.glitch.me" target="_blank"><button class="work_link">Сайт проекта</button></a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="https://cdn.glitch.global/b796fac7-8be1-47ea-bf80-36d588d7054b/mock15.png?v=1706743585184" alt="mock" />
+                                        <div class="content">
+                                            <div class="title">
+                                                <h2>
+                                                <span class="white-point"></span> Приложение: Прогноз погоды
+                                                <span class="white-point"></span>
+                                                </h2>
+                                                <h3>HTML/CSS/JS</h3>
+                                            </div>
+                                            <a href="https://js-module10-darla-app.glitch.me" target="_blank"><button class="work_link">Сайт проекта</button></a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="https://cdn.glitch.global/b796fac7-8be1-47ea-bf80-36d588d7054b/mock16.png?v=1706743585734" alt="mock" />
+                                        <div class="content">
+                                            <div class="title">
+                                                <h2>
+                                                <span class="white-point"></span> Приложение: Игра в рыцаря
+                                                <span class="white-point"></span>
+                                                </h2>
+                                                <h3>HTML/CSS/JS</h3>
+                                            </div>
+                                            <a href="https://js-module12-game-darla.netlify.app/" target="_blank"><button class="work_link">Сайт проекта</button></a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="https://cdn.glitch.global/b796fac7-8be1-47ea-bf80-36d588d7054b/mock17.png?v=1706743586264" alt="mock" />
+                                        <div class="content">
+                                            <div class="title">
+                                                <h2>
+                                                <span class="white-point"></span> Приложение: Сколько дней до Нового Года
+                                                <span class="white-point"></span>
+                                                </h2>
+                                                <h3>HTML/CSS/JS</h3>
+                                            </div>
+                                            <a href="https://js-module-6-2nd-app-darla.glitch.me" target="_blank"><button class="work_link">Сайт проекта</button></a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="https://cdn.glitch.global/b796fac7-8be1-47ea-bf80-36d588d7054b/mock18.png?v=1706743586796" alt="mock" />
+                                        <div class="content">
+                                            <div class="title">
+                                                <h2>
+                                                <span class="white-point"></span> Приложение: Список покупок
+                                                <span class="white-point"></span>
+                                                </h2>
+                                                <h3>HTML/CSS/JS</h3>
+                                            </div>
+                                            <a href="https://js-module3-shopinglist.glitch.me" target="_blank"><button class="work_link">Сайт проекта</button></a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="https://cdn.glitch.global/b796fac7-8be1-47ea-bf80-36d588d7054b/mock19.png?v=1706743587319" alt="mock" />
+                                        <div class="content">
+                                            <div class="title">
+                                                <h2>
+                                                <span class="white-point"></span> Приложение: Квиз по Гарри Поттеру
+                                                <span class="white-point"></span>
+                                                </h2>
+                                                <h3>HTML/CSS/JS/GSAP</h3>
+                                            </div>
+                                            <a href="https://js-module9-2app-darla.glitch.me" target="_blank"><button class="work_link">Сайт проекта</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="page__screen screen">
+
+                    <div class="screen__content screen__content_FifthSlide">
+
+                        <h2 class="glow screen__title_FifthSlide">Контакты</h2>
+                        <div class="screen__body_FifthSlide parallaxEl">
+
+                            <form class="decor"  action="https://formspree.io/f/xgegaewb"
+                            method="POST">
+                                <div class="form-left-decoration"></div>
+                                <div class="form-right-decoration"></div>
+                                <div class="circle"></div>
+                                <div class="form-inner">
+                                <h3>Свяжись со мной</h3>
+                                <input type="text" name="name" placeholder="ИМЯ">
+                                <input type="email" name="email" placeholder="Email">
+                                <textarea name="text" placeholder="Сообщение..." rows="3"></textarea>
+                                <input type="submit" value="Отправить">
+                                </div>
+                            </form>
+
+                        </div>
+                        <div class="footer">
+                            <p>©Ильинa Дарья</p>
+                        </div>
+                        <ul class="particles_lastSlide">
+                            <span style="--i: 11"></span>
+                            <span style="--i: 12"></span>
+                            <span style="--i: 13"></span>
+                            <span style="--i: 14"></span>
+                            <span style="--i: 15"></span>
+                            <span style="--i: 16"></span>
+                            <span style="--i: 17"></span>
+                            <span style="--i: 18"></span>
+                            <span style="--i: 19"></span>
+                            <span style="--i: 20"></span>
+                            <span style="--i: 21"></span>
+                            <span style="--i: 11"></span>
+                            <span style="--i: 12"></span>
+                            <span style="--i: 13"></span>
+                            <span style="--i: 14"></span>
+                            <span style="--i: 15"></span>
+                            <span style="--i: 16"></span>
+                            <span style="--i: 17"></span>
+                            <span style="--i: 18"></span>
+                            <span style="--i: 19"></span>
+                            <span style="--i: 20"></span>
+                            <span style="--i: 21"></span>
+                            <span style="--i: 11"></span>
+                            <span style="--i: 12"></span>
+                            <span style="--i: 13"></span>
+                            <span style="--i: 14"></span>
+                            <span style="--i: 15"></span>
+                            <span style="--i: 16"></span>
+                            <span style="--i: 17"></span>
+                            <span style="--i: 18"></span>
+                            <span style="--i: 19"></span>
+                            <span style="--i: 20"></span>
+                            <span style="--i: 21"></span>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="page__pagination"></div>
+            <div class="page__scroll"></div>
+        </main>
+    </div>
+    <script src="https://kit.fontawesome.com/297c477494.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
